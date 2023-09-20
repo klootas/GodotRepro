@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://depdtovcl110u"]
+
+[ext_resource type="Script" path="res://Scripts/InkQuickStartGuide.cs" id="1_lnxh2"]
+[ext_resource type="Resource" uid="uid://bkxlv2b25bmwg" path="res://Ink/Story.ink" id="2_eexl2"]
+
+[node name="VBoxContainer" type="VBoxContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_lnxh2")
+story = ExtResource("2_eexl2")
